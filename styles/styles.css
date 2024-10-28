@@ -1,0 +1,151 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(224, 218, 218);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #C5C0B9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: darkgray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(224, 218, 218);
+}
+
+.navbar img {
+    width: 80px;
+}
+
+.loggo {
+    padding: 0.5rem;
+}
+
+.loggo img {
+    width: 100px;
+    margin-left: 2rem;
+    animation: rotation;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    margin-right: 5rem;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    transform: scale(1.2);
+}
+
+#carouselExampleIndicators .carousel-item img {
+    height: 800px;
+    object-fit: cover;
+}
+
+
+.carousel-item {
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bakgrund {
+    background-color: black;
+    opacity: 0.7;
+}
+
+h5 {
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.btn {
+    width: 10rem;
+    background-color: #E6A700;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.left-column {
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+.right-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    height: 100%;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Reviews Carousel Styles */
+.review {
+    padding: 2rem;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.reviewer-rating {
+    color: #ffc107;
+}
+
+.team-member-name {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+@media screen and (max-width:1200px) {
+    nav {
+        display: none;
+    }
+}
